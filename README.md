@@ -65,7 +65,7 @@ Certain sites may display missing images or encounter formatting issues. This ca
 
 ### Docker
 ```bash
-docker run -p 8080:8080 -d --env RULESET=https://t.ly/14PSf --name ladder ghcr.io/everywall/ladder:latest
+docker run -p 8080:8080 -d --env RULESET=https://raw.githubusercontent.com/sergiorgiraldo/ladder-rules/main/ruleset.yaml --name ladder ghcr.io/sergiorgiraldo/ladder:latest
 ```
 
 ### Docker Compose
